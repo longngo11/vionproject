@@ -1,0 +1,6 @@
+type Slide{
+    title:String!
+    url:String!
+    para: String!
+    header:String! 
+}

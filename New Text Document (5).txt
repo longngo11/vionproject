@@ -1,0 +1,49 @@
+nguyen bao20:11
+{ for(let obj of data){ <html>} }
+{html}
+nguyen bao20:17
+{
+        allItems.map((item) => (
+          <FormControlLabel
+            className={classes.listItemLabel}
+            key={item.uid}
+            control={
+              <Checkbox
+                color="primary"
+                defaultChecked={isChecked(item)}
+                onChange={e => { handleChange(e, item) }} />
+            }
+            label={item?.state?.nodeData?.collection_name.state}
+          />
+        ))
+      }
+Bạn20:19
+<Carousel.Item interval={1000}>
+      <img
+        className="d-block w-100"
+        src={logo}
+        alt="First slide"
+      />
+      <Carousel.Caption>
+        <h3>First slide label</h3>
+        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+      </Carousel.Caption>
+    </Carousel.Item>
+  
+  </Carousel>
+nguyen bao20:21
+{
+        Objects.map((item) => (
+          <Carousel.Item interval={1000}>
+          <img
+            className="d-block w-100"
+            src={item.logo}
+            alt="First slide"
+          />
+          <Carousel.Caption>
+            <h3>{item.header}</h3>
+            <p>{item.paragraph}</p>
+          </Carousel.Caption>
+          </Carousel.Item>
+        ))
+      }
