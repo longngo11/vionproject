@@ -1,10 +1,10 @@
+// eslint-disable-next-line
 import React from 'react'
-import { Container,Row,Col,Tabs,Tab,Sonnet,Card,Button, CardGroup
+import { Container,Row,Col,Tabs,Tab,
  } from 'react-bootstrap-v5'
 import ImageSlider from '../components/ImageSlider'
 import Sidebar from '../components/Sidebar'
 import '../css/Home.css'
-import { Carousel } from 'react-bootstrap';
 import Cards from '../components/Cards'
 const Home = () => {
   return (

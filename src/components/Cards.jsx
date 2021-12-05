@@ -1,4 +1,17 @@
 import React from 'react'
+
+const Cards = () => {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+
+export default Cards
+
+
+/*import React from 'react'
 import axios from 'axios';
 import '../css/Card.css'
 export default class ImageSlider extends React.Component {
@@ -29,7 +42,7 @@ export default class ImageSlider extends React.Component {
         </>
       )
   }
-}
+}*/
 
 
 

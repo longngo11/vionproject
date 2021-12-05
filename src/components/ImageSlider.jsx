@@ -1,9 +1,10 @@
-import React from 'react'
+import React,{useState,useEffect} from 'react'
 import logo from "../assets/images/banner.png";
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Carousel } from 'react-bootstrap';
 import axios from 'axios';
+import * as Constants from '../constants'
 
 function Imagelider(){
   const[data,setData]=useState({sliders:[]});
@@ -11,7 +12,7 @@ function Imagelider(){
     const fetchData= async () => { 
        //Call GraphQl API
       const queryResult = await axios.get(
-        Constants.GRAPHQL_API,{
+        Constants.GRAPHQL_API ,{
           query: Constants.GET_ALL_SLIDE
         },   
       );
@@ -25,7 +26,7 @@ function Imagelider(){
     <Carousel>{
       data.sliders.map((item) => (
                 <Carousel.Item interval={1000} key={item.id}>
-               <img item={item}/>
+                <img item={item.url}/>
                 </Carousel.Item>
       ))}
       </Carousel>    

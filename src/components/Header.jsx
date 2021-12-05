@@ -4,7 +4,7 @@ import '../css/App.css'
 import 'bootstrap/dist/css/bootstrap.css'
 import { Nav, Navbar, NavDropdown} from 'react-bootstrap'
 import * as Icon from 'react-bootstrap-icons'
-import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
+// import NavbarToggle from 'react-bootstrap/esm/NavbarToggle';
 
 const Header = () => {
     return (

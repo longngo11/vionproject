@@ -2,7 +2,7 @@ import React from 'react'
 import 'bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap-icons'
-import * as Icon from 'react-bootstrap-icons'
+// import * as Icon from 'react-bootstrap-icons'
 const Sidebar = () => {
     return (
       

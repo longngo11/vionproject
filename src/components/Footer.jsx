@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container,Row,Col,Tabs,Tab,Sonnet,Card,Button, CardGroup
+import { Container,Row,Col
 } from 'react-bootstrap-v5'
 import * as Icon from 'react-bootstrap-icons'
 const Footer = () => {
